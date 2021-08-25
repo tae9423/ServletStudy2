@@ -36,5 +36,17 @@ public class DBConnector {
 			e.printStackTrace();
 		}
 	}
+	
+	public void disConnect(PreparedStatement st, Connection con) {
+		
+			try {
+				st.close();
+				con.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		
+	}
 
 }
