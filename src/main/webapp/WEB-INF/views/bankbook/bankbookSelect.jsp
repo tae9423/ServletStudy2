@@ -9,18 +9,16 @@
 	</head>
 	<body>
 		<h1>BankBook Select Page</h1>
-		<%
-			String num = request.getParameter("bookNumber");
-			
-			Object obj = request.getAttribute("dto");
-			BankbookDTO bankbookDTO = (BankbookDTO)obj;
-		%>
 		
-		<h3>num : <%=num %></h3>
-		<h3>Name : <%=bankbookDTO.getBookName() %></h3>
-		<h3>Number : <%=bankbookDTO.getBookNumber() %></h3>
-		<h3>Rate : <%=bankbookDTO.getBookRate() %></h3>
-		<h3>Sale : <%=bankbookDTO.getBookSale() %></h3>
+		
+		<h3>num : ${dto.bookNumber} </h3>
+		<h3>Name : ${dto.bookName} </h3>
+		
+		<h3>Rate : ${dto.bookRate} </h3>
+		<h3>Sale : ${dto.bookSale} </h3>
+		<h3>count : ${count}</h3>
+		<h3>name : ${name}</h3>
+		<h3>session : ${sessionScope.se}</h3>
 	
 	</body>
 </html>
