@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+	color : red;
+}
+
+h3 {
+	color: blue;
+}
+
+#t1 {
+	
+	color : lime;
+	
+}
+.c1 {
+	color: black;
+}
+
+h1 {
+	font-size : 100px;
+	/* border-top */
+	border-top-color: lime;
+	border-top-width: 3px;
+	border-top-style: solid;
+	
+	/* border-right */
+	border-right-color: aqua;
+	border-right-width: 3px;
+	border-right-style: groove;
+	
+	border-bottom: blue dotted 3px;
+	
+}
+
+/* #t3, h2 {
+	font-size : 50px;
+} */
+
+.c2 {
+	font-size : 32px;
+}
+
+#circle {
+	border: 5px solid red;
+	width: 200px;
+	height: 200px;
+	border-top-left-radious : 30px;
+}

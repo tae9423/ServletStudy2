@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#t1{
+	
+	border-top: purple 3px solid;
+	border-bottom:  purple 3px solid;
+	border-right:  purple 3px solid;
+	border-left:  purple 3px solid;
+	
+	width: 500px;
+	margin:  0 auto;
+	
+}
+
+#t2{
+	
+	border-top: brown 3px dashed;
+	border-bottom: brown 3px dashed;
+	border-right: brown 3px dashed;
+	border-left: brown 3px dashed;
+	
+}
+
+.tbl {
+	border : red 3px solid;
+	width: 70%;
+	margin:  0 auto;
+	
+	
+	
+}
+
+.tbl_tr {
+	
+	border : blue dotted 2px;
+	
+}
+#title {
+	margin : 0 auto;
+	text-align: center;
+	background-color: yellow;
+	
+}
+
